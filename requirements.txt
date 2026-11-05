@@ -1,0 +1,52 @@
+# ==============================================================
+# AI Powered Fake News Detection and Media Bias Analysis System
+# requirements.txt
+# ==============================================================
+
+# ---- Core App Framework ----
+streamlit==1.38.0
+
+# ---- Backend API Layer ----
+fastapi==0.115.0
+uvicorn==0.30.6
+pydantic==2.9.2
+
+# ---- Machine Learning / NLP ----
+torch==2.4.1
+transformers==4.44.2
+scikit-learn==1.5.1
+sentencepiece==0.2.0
+tokenizers==0.19.1
+
+# ---- Data Handling ----
+pandas==2.2.2
+numpy==1.26.4
+
+# ---- Visualization ----
+plotly==5.24.0
+altair==5.4.1
+
+# ---- URL / Article Extraction ----
+newspaper3k==0.2.8
+lxml[html_clean]==5.3.0
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# ---- File Parsing (txt/pdf/docx uploads) ----
+PyPDF2==3.0.1
+python-docx==1.1.2
+
+# ---- Database ----
+# SQLite is built into Python's standard library (sqlite3) - no install needed
+
+# ---- Utilities ----
+python-dateutil==2.9.0.post0
+Pillow==10.4.0
+validators==0.34.0
+
+# ---- Styling / UX Helpers ----
+streamlit-extras==0.4.7
+streamlit-lottie==0.0.5
+
+# ---- Export ----
+xlsxwriter==3.2.0
